@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lalezar", "system-ui";}
+body
+{
+    background-image: url('https://cdn.discordapp.com/attachments/1195410943853727825/1195639230270017556/HoaAnhDaoBackground-Trim-ezgif.com-video-to-gif-converter_1.gif');
+       background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-moz-background-size: cover; 
+	-webkit-background-size: cover; 
+	-o-background-size: cover; 			
+	background-size: 1920px;    
+}
+
+.navbar ul{
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+}
+
+.navbar ul li{
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+}
+
+.navbar ul li a{
+    background-color: rgb(37, 37, 37);
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+}
+.container a{
+ align-items: center;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+}
+.container a ul{
+ align-items: center;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+}
+.container a ul li{
+ align-items: center;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+}
+
+.navbar-brand
+{
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+}
+
+.card-body{
+
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    justify-content: center;
+}
+
+@keyframes rainbow{
+    100%{
+        background-position: 0 30em;
+    }
+}
+
+.input-group h2{
+color: transparent;
+   position:fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    font-family: "Poppins",sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    background: linear-gradient(
+        #fd004c 16.7%,
+        #fe9000 16.7%,
+        #fe9000 33.4%,
+        #fff020 33.4%,
+        #fff020 50.1%,
+        #3edf4b 50.1%,
+        #3edf4b 66.8%,
+        #3363ff 66.8%,
+        #3363ff 83.5%,
+        #b102b7 83.5%,
+        #00ffea 100%
+    );
+    -webkit-text-stroke: 0.04em #9e4e28;
+    -webkit-background-clip: text;
+            background-clip: text;
+    line-height: 1.1em;
+    animation: rainbow 50s linear infinite;
+
+}
+h3{
+    color: transparent;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 37%;
+    font-family: "Poppins",sans-serif;
+    font-size: 100px;
+    letter-spacing: 0.05em;
+    background: linear-gradient(
+        #fd004c 16.7%,
+        #fe9000 16.7%,
+        #fe9000 33.4%,
+        #fff020 33.4%,
+        #fff020 50.1%,
+        #3edf4b 50.1%,
+        #3edf4b 66.8%,
+        #3363ff 66.8%,
+        #3363ff 83.5%,
+        #b102b7 83.5%,
+        #ff00dd 100%
+    );
+    -webkit-text-stroke: 0.04em #9e4e28;
+    -webkit-background-clip: text;
+            background-clip: text;
+    line-height: 1.1em;
+    animation: rainbow 50s linear infinite;
+}
+h2{
+    color: transparent;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 27%;
+    font-family: "Poppins",sans-serif;
+    font-size: 100px;
+    letter-spacing: 0.05em;
+    background: linear-gradient(
+        #fd004c 16.7%,
+        #fe9000 16.7%,
+        #fe9000 33.4%,
+        #fff020 33.4%,
+        #fff020 50.1%,
+        #3edf4b 50.1%,
+        #3edf4b 66.8%,
+        #3363ff 66.8%,
+        #3363ff 83.5%,
+        #b102b7 83.5%,
+        #00ffea 100%
+    );
+    -webkit-text-stroke: 0.04em #9e4e28;
+    -webkit-background-clip: text;
+            background-clip: text;
+    line-height: 1.1em;
+    animation: rainbow 50s linear infinite;
+}
+h1{
+    color: transparent;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 20%;
+    font-family: "Poppins",sans-serif;
+    font-size: 100px;
+    letter-spacing: 0.05em;
+    background: linear-gradient(
+        #fd004c 16.7%,
+        #fe9000 16.7%,
+        #fe9000 33.4%,
+        #fff020 33.4%,
+        #fff020 50.1%,
+        #3edf4b 50.1%,
+        #3edf4b 66.8%,
+        #3363ff 66.8%,
+        #3363ff 83.5%,
+        #b102b7 83.5%,
+        #00ffea 100%
+    );
+    -webkit-text-stroke: 0.04em #849c2d;
+    -webkit-background-clip: text;
+            background-clip: text;
+    line-height: 1.1em;
+    animation: rainbow 50s linear infinite;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+ padding: auto;
+min-height: 100px;
+color : #ffffff;
+flex: 20px;
+display: flex;
+    box-sizing: border-box;
+color: white;
+    position: absolute;
+    left: 15%;
+    top: 80%;
+
+  }
+  .input-group label {
+    display: block;
+    text-align: top;
+    margin: 10px;
+    color : #ffffff;
+  }
+  .input-group input {
+box-sizing: border-box;
+display : block;
+    height: 30px;
+    width: 53%;
+    padding: 15px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+  .input-group .btn{
+box-sizing: border-box;
+display: block;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+width: 200px;
+font-family: "Poppins",sans-serif;
+transform: translate(-50%,-50%);
+background: rgba(116,110,135, 0.5);
+animation: rainbow 50s linear infinite;
+
+    font-size: 25px;
+
+
+  }
+
+.text-center {
+    text-align: center!important;
+}
+
+.py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+.bg-dark {
+    display: flex;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+footer {
+
+    display: block;
+}
+
+iframe{
+display : block;
+transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 140%;
+width: 1000px;
+}
+
+footer {
+display : block;
+transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 180%;
+width: 500px;
+
+}
+.containerr {
+    transform: translate(-5%,5%);
+width: 900px;
+    padding: 200px 100px 130px;
+border-radius: 10px;
+box-shadow: rgba(255,255,255, 250) 5px 7px 40px 0px;
+color :#7b9e28;
+
+}
+
+
